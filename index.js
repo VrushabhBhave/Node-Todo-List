@@ -22,7 +22,7 @@ const getInput = (question) => {
 
 const addTask = async() => {
     try{
-        const task = await getInput("Type your task ==>");
+        const task = await getInput("Type Your Task ==>");
         try{
             //check file exist or not
             await fs.access(filepath);
